@@ -16,7 +16,7 @@ function App() {
       <Enlaces />
       <Resultados />
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Desarrollado por Samuel Andres Celis Lizcano
       </p>
     </>
   )
