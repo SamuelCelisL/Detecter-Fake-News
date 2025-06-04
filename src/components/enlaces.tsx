@@ -1,6 +1,6 @@
 export default function Enlaces(){
     return (
-        <div className="m-6 flex items-center justify-center p-4 border rounded-2xl bg-gradient-to-l from-blue-500 to-green-500 shadow-lg hover:shadow-2xl hover:shadow-white hover:text-white">
+        <div className="m-6 flex items-center justify-center p-4 rounded-2xl bg-gradient-to-l from-blue-500 to-green-500 shadow-lg hover:shadow-2xl hover:shadow-white hover:text-white max-w-full min-w-xl">
         <p className=" text-2xl font-extrabold text-gray-900 justify-center items-center flex">Link</p>
             {/* <div className=" flex ">
                 <p className="flex justify-center text-center items-center pl-3">🔗</p>
@@ -8,8 +8,7 @@ export default function Enlaces(){
             </div>
   */}
         <form>   
-            <label htmlFor="search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-            <div className="relative w-[900px] pl-2">
+            <div className="relative pl-2 max-w-lg min-w-xl">
                 <div className="absolute inset-y-0 start-0 flex items-center ps-5 pointer-events-none">
                     {/* Icono de enlace */}
                     <svg className="w-4 h-4 text-gray-500 dark:text-gray-400 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
