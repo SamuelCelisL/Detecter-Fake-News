@@ -15,7 +15,7 @@ function App() {
       <Informacion />
       <Enlaces />
       <Resultados />
-      <p className="read-the-docs">
+      <p className="text-black">
         Desarrollado por Samuel Andres Celis Lizcano
       </p>
     </>

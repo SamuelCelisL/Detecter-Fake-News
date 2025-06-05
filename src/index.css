@@ -12,6 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.cursive {
+  font-family: 'Pacifico', cursive;
+}
 
 /* body {
   margin: 0;
