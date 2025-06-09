@@ -28,7 +28,7 @@ export default function Resultados() {
             </table>
             <h2 className="bg-black bg-clip-text text-xl font-bold text-transparent ...">Conclusión</h2>
             <span className="text-black">De acuerdo al nalisis realizado y teniendo en cuenta los items de evalacion la noticia es verdadera</span>
-            <p className="text-sm cursive text-black mt-2 wrap-anywhere underline hover:decoration-white hover:text-white cursor-pointer w-[300px] text-wrap">Recuerda que esta herramienta esta en fase Beta y puede llegar a cometer errores en la evaluación de las noticia.</p>
+            <p className="text-sm cursive text-black mt-2 wrap-anywhere underline hover:decoration-white hover:text-white cursor-pointer max-w-[300px] text-wrap">Recuerda que esta herramienta esta en fase Beta y puede llegar a cometer errores en la evaluación de las noticia.</p>
         </div>
     )
 };
