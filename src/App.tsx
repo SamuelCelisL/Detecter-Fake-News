@@ -17,7 +17,7 @@ function App() {
       <Enlaces setResultado={setResultado} setError={setError}/>
       <Resultados resultado={resultado} error={error}/>
       <p className="text-black">
-        Desarrollado por Samuel Andres Celis Lizcano
+        Desarrollado por <a className='font-bold text-blue-900 hover:text-white underline' href="https://www.linkedin.com/in/samuel-celis-l/" target='_blank'>Samuel Andres Celis Lizcano</a>
       </p>
     </>
   )
