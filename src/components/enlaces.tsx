@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import type { ResultadoApi } from '../types';
 
+// Usa import.meta.env para variables de entorno en Vite/React
+const APPISERVIDOR = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+console.log("API Server URL:", APPISERVIDOR);
 interface EnlacesProps {
   setResultado: (data: ResultadoApi | null) => void;
   setError: (msg: string | null) => void;
@@ -24,7 +27,8 @@ export default function Enlaces({ setResultado, setError }: EnlacesProps){
     setError(null);
 
     try {
-      const res = await fetch('http://localhost:5000/analizar', {
+      // const res = await fetch('http://localhost:5000/analizar', {
+      const res = await fetch(`${APPISERVIDOR}/analizar`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url })
