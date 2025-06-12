@@ -49,7 +49,7 @@ export default function Enlaces({ setResultado, setError }: EnlacesProps){
     }
   };
     return (
-        <div className="my-2 sm:m-1 md:m-6 lg:mx-120 flex flex-col flex-wrap items-center justify-center p-4 rounded-2xl bg-gradient-to-l from-blue-500 to-green-500 shadow-lg hover:shadow-2xl hover:shadow-white hover:text-white hover:border sm:flex-row">
+        <div className="my-2 sm:m-1 md:m-6 lg:mx-40 flex flex-col flex-wrap items-center justify-center p-4 rounded-2xl bg-gradient-to-l from-blue-500 to-green-500 shadow-lg hover:shadow-2xl hover:shadow-white hover:text-white hover:border sm:flex-row">
             <p className=" text-2xl font-extrabold text-gray-900 justify-center items-center flex">Link</p> 
             <div className=" pr-2 max-w-[600px] w-full relative">
                 <div className="absolute inset-y-0 start-0 flex items-center ps-5 pointer-events-none ">
