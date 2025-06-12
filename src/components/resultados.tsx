@@ -24,7 +24,7 @@ export default function Resultados({ resultado, error }: ResultadosProps) {
         return null; // O un mensaje de espera
     }
     return (
-        <div className="flex flex-col flex-wrap w-auto items-center justify-center p-4 shadow-lg rounded-2xl bg-gradient-to-l from-blue-500 to-green-500 hover:shadow-2xl hover:shadow-white hover:text-white hover:border my-2 sm:m-1 md:m-6">
+        <div className="flex flex-col flex-wrap w-auto items-center justify-center p-4 shadow-lg rounded-2xl bg-gradient-to-l from-blue-500 to-green-500 hover:shadow-2xl hover:shadow-white hover:text-white hover:border my-2 sm:m-1 md:m-6 lg:mx-120">
             <h1 className="text-2xl font-bold mb-4 text-black">Resultados</h1>
             {/* Renderiza aquí el contenido de resultado según la estructura que devuelva tu API */}
             {/* <pre className="text-black">{JSON.stringify(resultado, null, 2)}</pre> */}

@@ -1,4 +1,3 @@
-import './App.css'
 import  Titulo  from "./components/titulo";
 import Informacion from "./components/informacion";
 import Enlaces from "./components/enlaces";
