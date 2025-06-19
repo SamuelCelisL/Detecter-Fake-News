@@ -13,6 +13,6 @@ Espero este repositoria sea de ayuda para algun proyecto similar que estes desar
 # Documentos relacionados con el desarrollo
 Si deseas mas información del proyecto puedes descargar el documento completo aqui ↓↓↓
 
-[Descargar el PDF del desarrollo completo](D_final_Detecter_Fake_News_12_06_2025_Celis_Samuel_1091964042.pdf)
-[Descargar el PDF del articulo](Articulo_Detecter_Fake_News_2025.pdf)
-[Descargar el PDF del manual de usuario](Manual_de_Usuario.pdf)
+[Descargar el PDF del desarrollo completo](docs/D_final_Detecter_Fake_News_12_06_2025_Celis_Samuel_1091964042.pdf)
+[Descargar el PDF del articulo](docs/Articulo_Detecter_Fake_News_2025.pdf)
+[Descargar el PDF del manual de usuario](docs/Manual_de_Usuario.pdf)
